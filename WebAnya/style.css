@@ -1,0 +1,133 @@
+@font-face {
+    font-family: Mont;
+    src: url(font/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Mont-Back;
+    src: url(font/Montserrat-SemiBold.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Mont";
+}
+
+.back {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    float: left;
+    text-decoration:underline;
+    font-family: "Mont-Back";
+}
+
+hr {
+    background-color: rgb(255, 255, 255);
+    border: 0 none;
+    color: rgb(255, 255, 255);
+    height: 3px;
+    margin-bottom: 5;
+    margin-top: 0;
+}
+
+.container{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    padding-top: 280px;
+    padding-bottom: 190px;
+    text-shadow: 1px 0 1px rgb(48, 48, 48), 
+    0 1px 1px rgb(48, 48, 48), 
+    -1px 0 1px rgb(48, 48, 48), 
+    0 -1px 1px rgb(48, 48, 48);
+    background: url(img/polotsk.jpg) no-repeat center top / cover;
+    color: fff;
+}
+
+.container h2{
+    font-size: 84;
+}
+
+.container p{
+    font-size: 24;
+}
+
+.container a{
+    text-decoration: none;
+    color: fff;
+    transition: 0.5s;
+}
+
+.container a:hover{
+    color: rgb(249, 255, 172);
+}
+
+.collect a{
+    text-shadow: 1px 0 1px rgb(48, 48, 48), 
+    0 1px 1px rgb(48, 48, 48), 
+    -1px 0 1px rgb(48, 48, 48), 
+    0 -1px 1px rgb(48, 48, 48);
+    transition: 0.5s;
+}
+
+.collect a:hover{
+    color: rgb(249, 255, 172);
+}
+
+h2{
+    margin-bottom: 0;
+}
+
+p{
+    margin: 0;
+}
+
+section{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.d-1{
+    font-size: 60;
+}
+
+.d-1 img{
+    margin-top: 150px;
+    margin-bottom: 250px;
+    transform: rotate(-54deg);
+}
+
+.d-2{
+    background: url(img/pam.jpg) no-repeat center top / cover;
+    background-size: 90%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 120px;
+}
+
+.d-3{
+    background: url(img/muz.jpeg) no-repeat center top / cover;
+    background-size: 90%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 120px;
+}
+
+.d-4 {
+    background: url(img/sobor.jpg) no-repeat center top / cover;
+    background-size: 90%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 150px;
+}
+
+section a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 128px;
+    filter: blur(0px);
+}

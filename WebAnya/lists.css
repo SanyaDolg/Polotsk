@@ -1,0 +1,70 @@
+.gaonutosal {
+  margin-left: auto;
+  margin-right: auto;
+  width: 58%;
+  padding: 0 1em;
+}
+
+.pesontedan {
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #3a3a3a;
+  border-radius: 25px;
+  color: #1d1d1d;
+  overflow: hidden;
+}
+
+.pesontedan input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.pesontedan label {
+  position: relative;
+  display: block;
+  padding: 0 0 0 1em;
+  line-height: 3;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.pesontedan-content {
+  max-height: 0;
+  overflow: hidden;
+  font-size: 14px;
+  color: #000000;
+}
+
+.pesontedan-content p {
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 1030px;
+}
+  
+.pesontedan-content img {
+  width: 350px;
+  height: 320px;
+  border-radius: 5px;
+
+}
+
+.pesontedan-content {
+  max-height: 0vmax;
+  transition: 1.2s;
+
+}
+
+.pesontedan input:checked ~ .pesontedan-content {
+  max-height: 100vmax;
+  transition: 5s;
+}
+
+.treba {
+  margin: 80 0 80;
+}
